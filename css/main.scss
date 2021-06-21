@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
+
+
+
+
+body{
+    background: #B993D6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+#header{
+    height: 50px;
+    width: 100%;
+    background-color: grey;
+}
+
+#timer{
+    font-size: 2em;
+    font-family: 'DotGothic16', sans-serif;
+    font-weight: bolder;
+
+    #restart{
+        cursor: pointer;
+    }
+}
+
+#clickElement{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    background-image: url('../images/devil.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.center{
+    position: absolute;
+    top: 50vh;
+    width: 100%;
+    text-align: center;
+}
+
+
+.notification{
+    display: none;
+}
+
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+#restart{
+    display: none;
+}
